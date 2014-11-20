@@ -1,0 +1,38 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[german,ngerman]{babel}%für richtige Datumsformattierung
+
+\begin{document}
+\selectlanguage{german}
+\title{CS102 \LaTeX \hspace{1pt} \"Ubung}
+\author{Ioana Mazare}
+\maketitle
+
+\section{Das ist der erste Abschnitt}
+Hier k\"onnte auch ein anderer Text stehen.
+
+\section{Tabelle}
+Unsere wichtigsten Daten finden Sie in Tabelle 1.
+\begin{table}[h]
+\centering
+\begin{tabular}{c|c|c|c}
+ & Punkte erhalten & Punkte m\"oglich & \% \\
+\hline
+Aufgabe 1 & 2 & 4 & 0.5 \\
+Aufgabe 2 & 3 & 3 & 1 \\
+Aufgabe 3 & 3 & 3 & 1 \\
+\end{tabular}
+\caption{Diese Tabelle kann auch andere Werte beinhalten.}
+\end{table}
+
+\section{Formeln}
+\subsection{Pythagoras}
+Der Satz des Pythagoras errechnet sich wie folgt: $a^{2}+b^{2}=c^{2}$.
+Daraus k\"onnen wir die L\"ange der Hypothenuse wie folgt berechnen: $c=\sqrt{a^{2}+b^{2}}$.
+
+\subsection{Summen}
+Wir k\"onnen auch die Formel f\"ur eine Summe angeben:
+\begin{equation}
+s=\sum_{i=1}^{n} i=\frac{n\times(n+1)}{2}
+\end{equation}
+
+\end{document}
